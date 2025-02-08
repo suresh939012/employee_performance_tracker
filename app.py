@@ -116,4 +116,4 @@ def get_performance(employee_id):
 
 # Step 8: Run the Flask App
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
